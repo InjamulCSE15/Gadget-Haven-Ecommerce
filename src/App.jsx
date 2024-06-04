@@ -7,7 +7,7 @@ import { Home } from "./components/Home/Home"
 import { LoginForm } from "./components/LoginForm/LoginForm"
 import { Contact } from "./components/Contact/Contact"
 import { Signup } from "./components/Signup/Signup"
-
+import { Toaster } from 'react-hot-toast';
 function App() {  
   
   return (
@@ -20,6 +20,7 @@ function App() {
       <Route path="/contact" element={<Contact/>}></Route>
       <Route path="/signup" element={<Signup/>}></Route>
     </Routes>   
+    <Toaster />
     <Footer/>
    </div>    
   )
