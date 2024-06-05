@@ -19,7 +19,7 @@ function Footer() {
                   </div>
                   <div className="flex">
                      <p className="mr-1 text-gray-800">Email:</p>
-                     <a href="mailto:gadgethaven@gmail.com" aria-label="Our email" title="Our email" className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800">triptravel@gmail.com</a>
+                     <a href="mailto:gadgethaven@gmail.com" aria-label="Our email" title="Our email" className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800">gadgethaven@gmail.com</a>
                   </div>
                   <div className="flex">
                      <p className="mr-1 text-gray-800">Address:</p>

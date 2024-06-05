@@ -16,7 +16,7 @@ export const Products = () => {
             })
     const addToCart = (product) => {
         myCart.push(product);
-        console.log(myCart);
+        setMyCart(myCart);
         toast.success(`Successfully added.`);
     }
 
